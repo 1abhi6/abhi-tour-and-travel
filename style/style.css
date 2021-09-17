@@ -1,0 +1,163 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Viga&display=swap');
+
+
+/* Root elements  */
+
+:root {
+    --border: black;
+    --bgcolor: #FFFFFF;
+    --linkcolor: rgb(125, 125, 125);
+    --logocolor: rgba(125, 125, 125, 0.4);
+    --hover: rgb(189, 172, 172);
+    --fntfam: 'Viga', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+/* Heading  */
+
+header {
+    background-color: var(--bgcolor);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0rem;
+    height: 10rem;
+    width: 100vw;
+}
+
+
+/* Header logo  */
+
+
+.logo {
+    font-family: var(--fntfam);
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--logocolor);
+    position: relative;
+    top: -1rem;
+    left: 1.5rem;
+    cursor: pointer;
+}
+
+/* Header navbar  */
+
+.nav-bar {
+    font-family: 'Viga', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin: .1rem 3rem;
+    font-size: 2.3rem;
+}
+
+.nav-items3 {
+    margin-right: 0rem;
+}
+
+ul a {
+    color: var(--linkcolor);
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: var(--hover);
+}
+
+
+
+/* Desiging the section part  */
+
+section {
+    /* border: 2px solid var(--border); */
+    background: url(../Images/bgedit.jpg);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 40rem;
+    font-size: 4.3rem;
+    line-height: 6.3rem;
+}
+
+
+.input {
+    /* border: 2px solid black; */
+    display: block;
+    margin-top: 25.1rem;
+    margin-left: -40.2rem;
+}
+
+.data {
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+
+input[type='email'] {
+    width: 27.8rem;
+    margin-right: 0rem;
+}
+
+button[type='submit'] {
+    width: 11.8rem;
+    margin-left: 0rem;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer section  */
+
+
+footer {
+    font-family: 'Viga', sans-serif;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: black;
+    background: #dadada;
+    text-align: center;
+}
+.fab{
+    margin-top: 0rem;
+    padding:.5rem;
+    color:gray;  
+}
+.fab:hover{
+    color:black;
+}
+.social_txt{
+    position: relative;
+    left:-35rem;
+    bottom:1rem;
+}
+

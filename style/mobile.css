@@ -1,0 +1,89 @@
+/* Media query for responsive behaviour  */
+
+@media (min-width: 240px) and (max-width: 600px) {
+	html {
+		font-size: 50%;
+		overflow-x: hidden;
+	}
+	.logo {
+		top: -2rem;
+		left: 1.5rem;
+	}
+	li {
+		margin: .1rem 1.3rem;
+		font-size: 2rem;
+	}
+
+
+	/* Section  */
+
+	.txt {
+		position: relative;
+		top: -15rem;
+		left: 0rem;
+	}
+	.txt>h1 {
+		text-align: center;
+	}
+	.input {
+		position: relative;
+		top: -13rem;
+		left: 6rem;
+	}
+	button[type='submit'] {
+		position: relative;
+		top: 2rem;
+		left: 10rem;
+	}
+
+	/* Footer  */
+    
+	footer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		height: 15vh;
+	}
+	.social_txt {
+		position: none;
+		left: 0rem;
+		bottom: 0rem;
+	}
+	.social_txt>p,
+	.icon>a,
+	.ftr_txt>p {
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width:345px) and (max-width:1024px){
+	button[type='submit'] {
+		position: relative;
+		top: 0rem;
+		left: 0rem;
+	}
+	.input{
+		left: 0rem;
+	}
+
+	/* Footer  */
+
+	footer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		height: 15vh;
+	}
+	.social_txt {
+		position: none;
+		left: 0rem;
+		bottom: 0rem;
+	}
+	.social_txt>p,
+	.icon>a,
+	.ftr_txt>p {
+		font-size: 1.5rem;
+	}
+}
