@@ -118,6 +118,7 @@ section {
 .data {
     padding: 1.5rem;
     font-size: 2rem;
+    outline:none;
 }
 
 input[type='email'] {
