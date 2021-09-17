@@ -92,7 +92,7 @@ ul a:hover {
 
 section {
     /* border: 2px solid var(--border); */
-    background: url(../Images/bgedit.jpg);
+    background: url(../bgedit.jpg);
     height: 100vh;
     width: 100vw;
     display: flex;
